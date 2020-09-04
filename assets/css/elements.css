@@ -1,0 +1,40 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Exo 2', sans-serif;
+}
+
+h1 {
+    font-size: 52px;
+}
+
+h3.totalCost {
+    background-color: white;
+    font-size: 30px;
+    padding: 20px;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.baddieTitle {
+    font-size: 32px;
+    text-align: center;
+}
+
+.baddiePrice {
+    text-align: center;
+}
+
+.baddieInput {
+    padding: 25px;
+    min-width: 300px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25px;
+}
+
+.bomb-omb-overlay {
+    right: -45px;
+    bottom: -25px;
+    position: absolute;
+    width: 150px;
+}
