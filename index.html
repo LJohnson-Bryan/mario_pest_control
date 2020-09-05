@@ -13,7 +13,7 @@
                          <div class="hero-container">
                              <div class="top-box">
                                  <h1>Mario Pest Control</h1>
-                                 <h3 class="totalCost">Your Total is: <span id="coinCost">0 Coins</span></h3>
+                                 <h3 class="totalCost">Your Total is: <output id="totalCoins"></output></h3>
                              </div> 
                          </div>
                          <div class="baddies-container-bomb-ombs">
@@ -23,8 +23,8 @@
                          <!-- Some Space for Content -->
                          <div class="input-container input-container-bomb-ombs">
                              <h2 class="baddieTitle">Enter how many caught:</h2>
-                             <input type="number" class="baddieInput" name="bomb-ombs"/>
-                             <h3 class="baddiePrice">Price: 0</h3>
+                             <input type="number" class="baddieInput" name="bombOmbs"/>
+                             <h3 class="baddiePrice">Price: 7 Coins</h3>
                          </div>
                          <div class="baddies-container-goombas">
                              <h1 style="color: white; text-align: center;">Bomb-ombs</h1>
@@ -34,7 +34,7 @@
                          <div class="input-container input-container-goombas">
                              <h2 class="baddieTitle">Enter how many caught:</h2>
                              <input type="number" class="baddieInput" name="goombas"/>
-                             <h3 class="baddiePrice">Price: 0</h3>
+                             <h3 class="baddiePrice">Price: 5 Coins</h3>
                          </div>
                          <div class="baddies-container-cheep-cheeps">
                              <h1 style="color: white; text-align: center;">Bomb-ombs</h1>
@@ -43,10 +43,12 @@
                          <!-- Some Space for Content -->
                          <div class="input-container input-container-cheep-cheeps">
                              <h2 class="baddieTitle">Enter how many caught:</h2>
-                             <input type="number" class="baddieInput" name="cheep-cheeps"/>
-                             <h3 class="baddiePrice">Price: 0</h3>
+                             <input type="number" class="baddieInput" name="cheepCheeps"/>
+                             <h3 class="baddiePrice">Price: 11 Coins</h3>
                          </div>
-                         <div class="input-submit-container"></div>
+                         <div class="input-submit-container">
+                             <button id="pestFormButton">Submit Amount</button>
+                         </div>
                      </div>
                  </div>
             </form>
@@ -54,5 +56,6 @@
         <footer>
                     
         </footer>
+        <script src="assets/js/main.js"></script>
     </body>
 </html>
