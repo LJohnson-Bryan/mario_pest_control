@@ -47,32 +47,186 @@
 .baddies-container-bomb-ombs {
     position: absolute;
     margin-top: 380px;
-    left: 15vw;
     width: 500px;
     background-color: #aa393e;
     box-shadow: 5px 5px #000;
     min-height: 250px;
 }
 
+@media only screen and (min-width: 1571px) {
+    .baddies-container-bomb-ombs {
+        left: 15vw;
+    }
+}
+
+
+@media only screen and (max-width: 1570px) {
+    .baddies-container-bomb-ombs {
+        left: 200px;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    .baddies-container-bomb-ombs {
+        left: 100px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .baddies-container-bomb-ombs {
+        left: 30px;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    .baddies-container-bomb-ombs {
+        left: initial !important;
+        display: block !important;
+        width: auto;
+        height: auto;
+        grid-column: 1 / span 8 !important;
+        position: initial;
+        margin-top: initial;
+    }
+
+    .bomb-omb-overlay {
+        position: initial !important;
+        margin: 0 auto !important;
+        padding-bottom: 25px;
+        display: block;
+        right: initial !important;
+        left: initial !important;
+        bottom: initial !important;
+    }
+
+    .input-container-bomb-ombs {
+        grid-column:  1 / span 8 !important;
+        /* background: red; */
+        min-height: 285px;
+    }
+    
+}
+
+@media only screen and (max-width: 450px) {
+    .baddieInput { 
+        max-width: 80%!important;
+    }
+}
+
+
+/* 1080 -- Turn the red cards into blocks.*/
+
+
+
 .baddies-container-goombas {
     position: absolute;
     margin-top: 680px;
-    right: 15vw;
     width: 500px;
     background-color: #aa393e;
     box-shadow: -5px 5px #000;
     min-height: 250px;
 }
 
+@media only screen and (min-width: 1571px) {
+    .baddies-container-goombas {
+        right: 15vw;
+    }
+}
+
+
+@media only screen and (max-width: 1570px) {
+    .baddies-container-goombas {
+        right: 200px;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    .baddies-container-goombas {
+        right: 100px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .baddies-container-goombas {
+        right: 30px;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    .baddies-container-goombas {
+        right: initial !important;
+        display: block !important;
+        width: auto;
+        height: auto;
+        grid-column: 1 / span 8 !important;
+        position: initial;
+        margin-top: initial;
+    }
+
+    .input-container-goombas {
+        grid-column:  1 / span 8 !important;
+        /* background: red; */
+        min-height: 285px;
+    }
+
+}
+
+
+/* 1080 -- Turn the red cards into blocks.*/
+
 .baddies-container-cheep-cheeps {
     position: absolute;
     margin-top: 960px;
-    left: 15vw;
     width: 500px;
     background-color: #aa393e;
     box-shadow: 5px 5px #000;
     min-height: 250px;
 }
+
+@media only screen and (min-width: 1571px) {
+    .baddies-container-cheep-cheeps {
+        left: 15vw;
+    }
+}
+
+
+@media only screen and (max-width: 1570px) {
+    .baddies-container-cheep-cheeps {
+        left: 200px;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    .baddies-container-cheep-cheeps {
+        left: 100px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .baddies-container-cheep-cheeps {
+        left: 30px;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    .baddies-container-cheep-cheeps {
+        left: initial !important;
+        display: block !important;
+        width: auto;
+        height: auto;
+        grid-column: 1 / span 8 !important;
+        position: initial;
+        margin-top: initial;
+    }
+
+    .input-container-cheep-cheeps {
+        grid-column:  1 / span 8 !important;
+        /* background: red; */
+        min-height: 285px;
+    }
+
+}
+
 
 .input-container-bomb-ombs {
     grid-column:  4 / span 5;
