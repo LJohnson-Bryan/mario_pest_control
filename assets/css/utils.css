@@ -89,7 +89,7 @@
         margin-top: initial;
     }
 
-    .bomb-omb-overlay {
+    .bomb-omb-overlay, .goomba-overlay {
         position: initial !important;
         margin: 0 auto !important;
         padding-bottom: 25px;
@@ -109,7 +109,17 @@
 
 @media only screen and (max-width: 450px) {
     .baddieInput { 
-        max-width: 80%!important;
+        max-width: initial!important;
+        min-width: initial !important;
+        width: 225px !important;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .baddieInput { 
+        max-width: initial!important;
+        min-width: initial !important;
+        width: 190px !important;
     }
 }
 
@@ -249,4 +259,8 @@
     grid-column: 1 / span 8;
     /* background-color: green; */
     height: 200px;
+}
+
+.d-inline-block {
+    display: inline-block;
 }
