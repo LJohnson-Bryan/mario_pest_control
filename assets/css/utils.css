@@ -1,0 +1,266 @@
+/* Container Styles */
+
+@media (min-width: 576px){
+    .container {
+    max-width: 540px;
+}}
+        
+@media (min-width: 768px){
+    .container {
+    max-width: 720px;
+}}
+         
+@media (min-width: 992px){
+    .container {
+    max-width: 960px;
+}}
+        
+@media (min-width: 1200px){
+    .container {
+    max-width: 1040px;
+}}
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 90vw;
+    }
+}
+
+.container {
+    width: 100%;
+    /* padding-right: 15px;
+    padding-left: 15px; */
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(245,245,245);
+    min-height: 1250px;
+}
+
+
+.grid-container-8 {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+.baddies-container-bomb-ombs {
+    position: absolute;
+    margin-top: 380px;
+    width: 500px;
+    background-color: #aa393e;
+    box-shadow: 5px 5px #000;
+    min-height: 250px;
+}
+
+@media only screen and (min-width: 1571px) {
+    .baddies-container-bomb-ombs {
+        left: 15vw;
+    }
+}
+
+
+@media only screen and (max-width: 1570px) {
+    .baddies-container-bomb-ombs {
+        left: 200px;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    .baddies-container-bomb-ombs {
+        left: 100px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .baddies-container-bomb-ombs {
+        left: 30px;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    .baddies-container-bomb-ombs {
+        left: initial !important;
+        display: block !important;
+        width: auto;
+        height: auto;
+        grid-column: 1 / span 8 !important;
+        position: initial;
+        margin-top: initial;
+    }
+
+    .bomb-omb-overlay, .goomba-overlay {
+        position: initial !important;
+        margin: 0 auto !important;
+        padding-bottom: 25px;
+        display: block;
+        right: initial !important;
+        left: initial !important;
+        bottom: initial !important;
+    }
+
+    .input-container-bomb-ombs {
+        grid-column:  1 / span 8 !important;
+        /* background: red; */
+        min-height: 285px;
+    }
+    
+}
+
+@media only screen and (max-width: 450px) {
+    .baddieInput { 
+        max-width: initial!important;
+        min-width: initial !important;
+        width: 225px !important;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .baddieInput { 
+        max-width: initial!important;
+        min-width: initial !important;
+        width: 190px !important;
+    }
+}
+
+
+/* 1080 -- Turn the red cards into blocks.*/
+
+
+
+.baddies-container-goombas {
+    position: absolute;
+    margin-top: 680px;
+    width: 500px;
+    background-color: #aa393e;
+    box-shadow: -5px 5px #000;
+    min-height: 250px;
+}
+
+@media only screen and (min-width: 1571px) {
+    .baddies-container-goombas {
+        right: 15vw;
+    }
+}
+
+
+@media only screen and (max-width: 1570px) {
+    .baddies-container-goombas {
+        right: 200px;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    .baddies-container-goombas {
+        right: 100px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .baddies-container-goombas {
+        right: 30px;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    .baddies-container-goombas {
+        right: initial !important;
+        display: block !important;
+        width: auto;
+        height: auto;
+        grid-column: 1 / span 8 !important;
+        position: initial;
+        margin-top: initial;
+    }
+
+    .input-container-goombas {
+        grid-column:  1 / span 8 !important;
+        /* background: red; */
+        min-height: 285px;
+    }
+
+}
+
+
+/* 1080 -- Turn the red cards into blocks.*/
+
+.baddies-container-cheep-cheeps {
+    position: absolute;
+    margin-top: 960px;
+    width: 500px;
+    background-color: #aa393e;
+    box-shadow: 5px 5px #000;
+    min-height: 250px;
+}
+
+@media only screen and (min-width: 1571px) {
+    .baddies-container-cheep-cheeps {
+        left: 15vw;
+    }
+}
+
+
+@media only screen and (max-width: 1570px) {
+    .baddies-container-cheep-cheeps {
+        left: 200px;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    .baddies-container-cheep-cheeps {
+        left: 100px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .baddies-container-cheep-cheeps {
+        left: 30px;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    .baddies-container-cheep-cheeps {
+        left: initial !important;
+        display: block !important;
+        width: auto;
+        height: auto;
+        grid-column: 1 / span 8 !important;
+        position: initial;
+        margin-top: initial;
+    }
+
+    .input-container-cheep-cheeps {
+        grid-column:  1 / span 8 !important;
+        /* background: red; */
+        min-height: 285px;
+    }
+
+}
+
+
+.input-container-bomb-ombs {
+    grid-column:  4 / span 5;
+    /* background: red; */
+    height: 285px;
+}
+
+.input-container-goombas {
+    grid-column:  1 / span 5;
+    /* background: red; */
+    height: 285px;
+}
+.input-container-cheep-cheeps {
+    grid-column:  4 / span 5;
+    /* background: red; */
+    height: 285px;
+}
+
+.input-submit-container {
+    grid-column: 1 / span 8;
+    /* background-color: green; */
+    height: 200px;
+}
+
+.d-inline-block {
+    display: inline-block;
+}

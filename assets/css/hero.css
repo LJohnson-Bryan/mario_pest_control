@@ -1,0 +1,13 @@
+.hero-container {
+    background-image: url('../img/PestControlBackground.PNG');
+    background-size: 1040px 600px; 
+    background-repeat: no-repeat;
+    background-position: bottom;
+    min-height: 400px;
+    grid-column: auto / span 8;
+}
+
+.top-box {
+    margin-top: 35px;
+    text-align: center;
+}
