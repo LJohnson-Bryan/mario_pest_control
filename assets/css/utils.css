@@ -109,7 +109,17 @@
 
 @media only screen and (max-width: 450px) {
     .baddieInput { 
-        max-width: 80%!important;
+        max-width: initial!important;
+        min-width: initial !important;
+        width: 225px !important;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .baddieInput { 
+        max-width: initial!important;
+        min-width: initial !important;
+        width: 190px !important;
     }
 }
 
